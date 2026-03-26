@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+#bar {
+    height: 10px;
+    width: 0%;
+    background: red;
+    margin: 10px auto;
+    transition: 0.3s;
+}
+
+#strength {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#suggestions {
+    font-size: 14px;
+    color: lightgray;
+}
